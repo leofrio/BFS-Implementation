@@ -284,6 +284,7 @@ public class allInOne {
 	 * Integer.toString(n.pos.x); res += ","; res +=Integer.toString(n.pos.y); res
 	 * += ")"; return res; }
 	 */
+	//comment
 	static class Walked { 
 		Node parent;
 		Node n; 
@@ -292,6 +293,7 @@ public class allInOne {
 			this.parent=p;
 		}
 	} 
+	//im just testing git features
 	static class WalkedList { 
 		ArrayList<Walked> list; 
 		public WalkedList() { 
