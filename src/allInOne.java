@@ -278,14 +278,12 @@ public class allInOne {
 			return path;
 		}
 	}
-	static String nodeToString(Node n) { 
-		String res="("; 
-		res += Integer.toString(n.pos.x); 
-		res += ","; 
-		res +=Integer.toString(n.pos.y); 
-		res += ")"; 
-		return res;
-	} 
+
+	/*
+	 * static String nodeToString(Node n) { String res="("; res +=
+	 * Integer.toString(n.pos.x); res += ","; res +=Integer.toString(n.pos.y); res
+	 * += ")"; return res; }
+	 */
 	static class Walked { 
 		Node parent;
 		Node n; 
